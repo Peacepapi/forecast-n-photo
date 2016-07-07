@@ -1,0 +1,24 @@
+.icon {
+  height: 50px;
+  width: 50px;
+}
+.box{
+  margin: 10px 50px;
+  width: 200px;
+  max-width: 90%;
+  background-color: #79d2df;
+  padding: 10px 50px;
+  height: 225px;
+  max-height: 90%;
+  text-align: center;
+}
+#zone .summary .temp-icon .temp .temp-label {
+  padding: 10px 50px;
+}
+.temp {
+  font-size: 3em;
+  padding-bottom: 15px;
+}
+.temp-label {
+  margin-left: -30px;
+}

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Peacepapi</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/4.2.0/normalize.min.css">
+    <link rel="stylesheet" href="custom.css">
+  </head>
+  <body>
+    <form class="search" action="index.html" method="post">
+      <input type="text" name="name" value="" id="user_input">
+      <input type="submit" name="button" class="btn"></button>
+    </form>
+    <div id="weather">
+      <div class="currently box">
+        <div id='zone'></div>
+        <div id='summary' class='summary'></div>
+        <img class='temp-icon icon' src='' ></img>
+        <div id='temp' class='temp'>
+          <img class='temp-label icon' src='img/f.svg'></img>
+        </div>
+
+        <div class="condition">
+          <div id='precip' class='precip'>Precipitation: </div>
+          <div id='humidity' class='precip'>Humidity: </div>
+          <div id='wind' class='wind'>Wind: </div>
+        </div>
+
+      </div>
+      <div class="hourly">
+      </div>
+    </div>
+    <div id="images">
+
+    </div>
+  </body>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+  <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDlWhdJkTH4jPXnZP8YJqayUIFa6mAiAeE&libraries=places"></script>
+  <script type="text/javascript" src="app.js">
+
+  </script>
+</html>
